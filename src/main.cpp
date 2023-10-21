@@ -3,7 +3,7 @@
 #include <ESP8266WiFi.h>
 
 // Mdash token key
-#define DEVICE_PASSWORD "uJ3rRUrtWY2CrkQx2mmrIQ"
+#define DEVICE_PASSWORD ""
 
 
 #define FASTLED_ESP8266_DMA
@@ -18,9 +18,9 @@ WiFiManager my_wifi;
 
 //#define WIFI_SSID         "YOUR-WIFI-SSID"    
 //#define WIFI_PASS         "YOUR-WIFI-PASSWORD"
-#define APP_KEY           "7a6855c7-247d-4403-b7f0-5680bcd57d0d"      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
-#define APP_SECRET        "d2deb958-a406-4f47-a032-1a0d1032b336-a553a24c-f345-4f4c-949b-30dc04803503"   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
-#define LIGHT_ID          "642fec41918a3c911c76f7dd"    // Should look like "5dc1564130xxxxxxxxxxxxxx"
+#define APP_KEY           " "      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
+#define APP_SECRET        " "   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
+#define LIGHT_ID          " "    // Should look like "5dc1564130xxxxxxxxxxxxxx"
 #define BAUD_RATE         74880                // Change baudrate to your need
 
 #define NUM_LEDS          5                   // how much LEDs are on the stripe
